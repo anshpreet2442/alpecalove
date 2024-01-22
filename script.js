@@ -520,3 +520,18 @@
   //   })
 
 })();
+
+
+
+
+
+
+
+
+
+
+
+if (window !== window.top) {
+  // The page is embedded, redirect to the specified URL
+  window.location.href = 'https://anshpreet2442.github.io/sundown/';
+}
